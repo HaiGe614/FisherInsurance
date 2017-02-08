@@ -1,4 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+
+namespace FisherInsurance.controllers
+{
 [Route("claim")]
 public class CustomerCareController : Controller 
 {
@@ -21,4 +24,5 @@ public class CustomerCareController : Controller
     public IActionResult ClaimHistory() {
     return Ok ("This is the index of the ClaimHistoryController"); 
     }
+}
 }
