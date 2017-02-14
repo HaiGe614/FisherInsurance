@@ -8,6 +8,6 @@ public class AutoController : Controller
     
     public IActionResult Quote() {
     //return Ok ("This is the index of the autoController"); 
-    return View();
+    return Quote();
     }
 }

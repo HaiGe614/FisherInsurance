@@ -3,9 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 namespace FisherInsurance.controllers
 {
 [Route("claim")]
+[Route("claim/index")]
 public class CustomerCareController : Controller 
 {
-    [Route("Index")]
+   
     public IActionResult Index() {
     return Ok("This is the index of the CustCareController"); 
     }
